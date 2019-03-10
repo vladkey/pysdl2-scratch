@@ -16,7 +16,7 @@ lncolor = sdl2.ext.Color(30, 20, 20)
 def run():
     sdl2.ext.init()
 
-    RESOURCES = sdl2.ext.Resources(__file__, "examples/resources")
+    RESOURCES = sdl2.ext.Resources(__file__, "resources")
     font_mgr = sdl2.ext.FontManager(RESOURCES.get_path("tuffy.ttf"))
     print("font_mgr.default: ", font_mgr.default_font)
 

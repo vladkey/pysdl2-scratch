@@ -15,7 +15,7 @@ lncolor = sdl2.ext.Color(30, 20, 20)
 def run():
     sdl2.ext.init()
 
-    RESOURCES = sdl2.ext.Resources(__file__, "examples/resources")
+    RESOURCES = sdl2.ext.Resources(__file__, "resources")
     font_surface = sdl2.ext.image.load_image(RESOURCES.get_path("font.bmp"), "SDL")
     print("font_surface: ", font_surface)
     new_white = sdl2.ext.draw.prepare_color(WHITE, font_surface)

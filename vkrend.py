@@ -1,7 +1,7 @@
 import sys
 import sdl2.ext
 
-RESOURCES = sdl2.ext.Resources(__file__, "examples/resources")
+RESOURCES = sdl2.ext.Resources(__file__, "resources")
 # font_surface = sdl2.ext.image.load_image(RESOURCES.get_path("font.bmp"), "SDL")
 BG_COLOR = sdl2.ext.Color(170, 220, 180, 127)
 WHITE = sdl2.ext.Color(255, 255, 255, 0)
